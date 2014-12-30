@@ -572,4 +572,6 @@ ofxUIWidget *ofxUIWidget::getCanvasParent()
             parent = parent->getParent();
         }
     }
+    
+    return NULL;
 }
